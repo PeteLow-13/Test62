@@ -5,7 +5,7 @@ import { Container, Image, Col, Row,} from 'react-bootstrap'
 
 const HomeScreen = () => {
     return (
-        <div >
+        < >
             <div className='home-container'>
             <h1>The Point of Going</h1>
             </div>
@@ -17,7 +17,7 @@ const HomeScreen = () => {
             </div>
             
         
-        </div>
+        </>
     )
 }
 

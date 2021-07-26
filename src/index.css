@@ -4,7 +4,9 @@
   padding: 0;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   text-align: center;
   padding: 10px;
 }
@@ -15,7 +17,40 @@ h1 {
   /* object-fit: none; */
   /* object-fit: scale-down; */
   /* object-fit: fill; */
-  object-fit: contain;
+  /* object-fit: contain; */
+  background-size: cover;
+  /* width: 160px; */
+  height: 160px;
+  border: 2px solid;
+  /* color: pink; */
+  resize: both;
+  /* overflow: scroll; */
+
+  min-height: 90vh;
+}
+
+.pnp-container {
+  background-image: url('assets/pointNoPointPH.jpeg');
+
+  /* object-fit: none; */
+  /* object-fit: scale-down; */
+  /* object-fit: fill; */
+
+  background-size: cover;
+  /* width: 160px; */
+  height: 160px;
+  border: 2px solid;
+  /* color: pink; */
+  resize: both;
+  /* overflow: scroll; */
+
+  /* background-size: contain;
+  width: 160px;
+  height: 160px;
+  border: 2px solid;
+  color: pink;
+  resize: both;
+  overflow: scroll; */
 
   min-height: 90vh;
 }

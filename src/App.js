@@ -6,6 +6,8 @@ import HomeScreen from "./screens/HomeScreen"
 import AboutScreen from "./screens/AboutScreen"
 import LocationSelectScreen from "./screens/LocationSelectScreen"
 import ContactScreen from './screens/ContactScreen'
+import PointNoPointScreen from './screens/PointNoPointScreen'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -18,8 +20,11 @@ function App() {
             <Route path='/locations' exact component={LocationSelectScreen} />
             <Route path='/about' exact component={AboutScreen} />
             <Route path='/contact' exact component={ContactScreen} />
+            <Route path='/pnp' exact component={PointNoPointScreen} />
           </Switch>
+          
         </Router>
+        <Footer />
       </Container>
       
     </div>

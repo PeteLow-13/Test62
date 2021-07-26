@@ -4,6 +4,7 @@ import * as AiIcons from 'react-icons/ai'
 import * as IoIcons from 'react-icons/io'
 import * as SiIcons from 'react-icons/si'
 import * as ImIcons from 'react-icons/im'
+import * as GiIcons from 'react-icons/gi'
 
 export const SidebarData = [
     {
@@ -28,6 +29,12 @@ export const SidebarData = [
         title: 'Contact',
         path: '/contact',
         icon: <ImIcons.ImMail2 />,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Point No Point',
+        path: '/pnp',
+        icon: <GiIcons.GiBoatPropeller />,
         cName: 'nav-text'
     }
 ]
