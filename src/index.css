@@ -12,13 +12,15 @@ h3 {
 }
 
 .home-container {
-  background-image: url('assets/ferry2.jpeg');
+  background-image: url('assets/EdmondsFerryOlympicsFullI.jpeg');
+  background-position: center;
+  background-size: cover;
   /* object-fit: cover; */
   /* object-fit: none; */
   /* object-fit: scale-down; */
   /* object-fit: fill; */
   /* object-fit: contain; */
-  background-size: cover;
+
   /* width: 160px; */
   height: 160px;
   border: 2px solid;
@@ -30,28 +32,61 @@ h3 {
 }
 
 .pnp-container {
-  background-image: url('assets/pointNoPointPH.jpeg');
-
-  /* object-fit: none; */
-  /* object-fit: scale-down; */
-  /* object-fit: fill; */
-
+  background-image: url('assets/PointNoPointMainFull.jpeg');
+  background-position: center;
   background-size: cover;
-  /* width: 160px; */
   height: 160px;
   border: 2px solid;
-  /* color: pink; */
   resize: both;
-  /* overflow: scroll; */
+  min-height: 90vh;
+}
 
-  /* background-size: contain;
-  width: 160px;
+.kingston-container {
+  background-image: url('assets/kingstonPH.jpeg');
+  background-position: center;
+  background-size: cover;
   height: 160px;
-  border: 2px solid;
-  color: pink;
+  /* border: 2px solid; */
   resize: both;
-  overflow: scroll; */
+  min-height: 90vh;
+}
 
+.paulsbo-container {
+  background-image: url('assets/paulsboPH.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 160px;
+  /* border: 2px solid; */
+  resize: both;
+  min-height: 90vh;
+}
+
+.portGamble-container {
+  background-image: url('assets/portGamblePH.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 160px;
+  /* border: 2px solid; */
+  resize: both;
+  min-height: 90vh;
+}
+.paulsboro-container {
+  background-image: url('assets/paulsboPH.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 160px;
+  /* border: 2px solid; */
+  resize: both;
+  min-height: 90vh;
+}
+
+.edmonds-container {
+  background-image: url('assets/kingstonPH.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 160px;
+  /* border: 2px solid; */
+  resize: both;
   min-height: 90vh;
 }
 
