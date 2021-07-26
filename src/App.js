@@ -7,6 +7,7 @@ import AboutScreen from "./screens/AboutScreen"
 import LocationSelectScreen from "./screens/LocationSelectScreen"
 import ContactScreen from './screens/ContactScreen'
 import PointNoPointScreen from './screens/PointNoPointScreen'
+import KingstonScreen from './screens/KingstonScreen'
 import Footer from './Components/Footer'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path='/about' exact component={AboutScreen} />
             <Route path='/contact' exact component={ContactScreen} />
             <Route path='/pnp' exact component={PointNoPointScreen} />
+            <Route path='/kingston' exact component={KingstonScreen} />
           </Switch>
           
         </Router>
