@@ -13,13 +13,13 @@ const Footer = () => {
                 <div class="col-md-3 col-sm-6">
                     {/* <!--Column1--> */}
                     <div class="footer-pad">
-                    <h4>Heading 1</h4>
+                    <h4>About</h4>
                     <ul class="list-unstyled">
                         <li><a href="#"></a></li>
-                        <li><a href="#">Payment Center</a></li>
-                        <li><a href="#">Contact Directory</a></li>
-                        <li><a href="#">Forms</a></li>
-                        <li><a href="#">News and Updates</a></li>
+                        <li><a href="/about">About the Point of Going</a></li>
+                        <li><a href="/contact">Contact us</a></li>
+                        <li><a href="#">Privacy Policy, Terms of Use, & Accessability</a></li>
+                        <li><a href="/contact">Advertise with us</a></li>
                         <li><a href="#">FAQs</a></li>
                     </ul>
                     </div>
