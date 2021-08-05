@@ -28,45 +28,46 @@ const getLocations = asyncHandler(async (req, res) => {
 // @desc   Fetch single location
 // @route  Get /api/locations/:id
 // @access  Public
-const getLocationById = asyncHandler(async (req, res) => {
-  const location = await Location.findById(req.params.id);
+// const getLocationById = asyncHandler(async (req, res) => {
+//   const location = await Location.findById(req.params.id);
 
-  if (location) {
-    res.json(location);
-  } else {
-    res.status(404);
-    throw new Error('Location not found');
-  }
-});
+//   if (location) {
+//     res.json(location);
+//   } else {
+//     res.status(404);
+//     throw new Error('Location not found');
+//   }
+// });
 
 // @desc   Delete a location
 // @route  Delete /api/locations/:id
 // @access  Private/admin
-const deleteLocation = asyncHandler(async (req, res) => {
-  const location = await Location.findById(req.params.id);
+// const deleteLocation = asyncHandler(async (req, res) => {
+//   const location = await Location.findById(req.params.id);
 
-  if (location) {
-    await location.remove();
-    res.json({ message: 'location removed' });
-  } else {
-    res.status(404);
-    throw new Error('Location not found');
-  }
-});
+//   if (location) {
+//     await location.remove();
+//     res.json({ message: 'location removed' });
+//   } else {
+//     res.status(404);
+//     throw new Error('Location not found');
+//   }
+// });
 
 // @desc   Create new location
 // @route  Post /api/locations
 // @access  Private/admin
-const createLocation = asyncHandler(async (req, res) => {
-  const location = new Location({
-    name: 'sample',
-    user: req.user._id,
-  });
+// const createLocation = asyncHandler(async (req, res) => {
+//   const location = new Location({
+//     name: 'sample',
+//     user: req.user._id,
+//   });
 
-  const createdLocation = await location.save();
-  res.status(201).json(createdlocation);
-});
+//   const createdLocation = await location.save();
+//   res.status(201).json(createdlocation);
+// });
 
 //add update Location
 
-export { getLocations, getLocationById, deleteLocation, createLocation };
+export { getLocations };
+// export { getLocations, getLocationById, deleteLocation, createLocation };
