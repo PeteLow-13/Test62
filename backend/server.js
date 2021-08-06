@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === 'development') {
 
 app.use(express.json());
 
-app.use('/api/location', locationRoutes);
+app.use('/api/locations', locationRoutes);
 
 // could use for donations??
 // app.get('/api/config/paypal', (req, res) =>
