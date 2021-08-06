@@ -2,7 +2,7 @@ import express from 'express';
 const router = express.Router();
 import {
   getLocations,
-  // getLocationById,
+  getLocationById,
   // deleteLocation,
   // updateLocation,
   // createLocation,
@@ -14,9 +14,7 @@ router.route('/').get(getLocations);
 
 // router.route('/').get(getLocations).post(protect, admin, createLocation);
 
-// router
-//   .route('/:id')
-//   .get(getLocationById)
+router.route('/:id').get(getLocationById);
 //   .delete(protect, admin, deleteLocation)
 //   .put(protect, admin, updateLocation);
 
