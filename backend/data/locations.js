@@ -5,19 +5,19 @@ const locations = [
   },
   {
     name: 'Point No Point',
-    image: 'PonitNoPointMainFull.jpg',
+    image: '/images/PointNoPointMainFull.jpg',
   },
   {
     name: 'Poulsbo',
-    image: 'PoulsboMainFull.jpg',
+    image: '/images/PoulsboMainFull.jpg',
   },
   {
     name: 'Kingston',
-    image: 'KingstonMainFull.jpg',
+    image: '/images/KingstonMainFull.jpg',
   },
   {
     name: 'Edmonds',
-    image: 'EdmondsMainFull.jpg',
+    image: '/images/EdmondsMainFull.jpg',
   },
   // {
   //   name: 'Mukilteo',
