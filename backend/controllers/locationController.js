@@ -28,16 +28,16 @@ const getLocations = asyncHandler(async (req, res) => {
 // @desc   Fetch single location
 // @route  Get /api/locations/:id
 // @access  Public
-// const getLocationById = asyncHandler(async (req, res) => {
-//   const location = await Location.findById(req.params.id);
+const getLocationById = asyncHandler(async (req, res) => {
+  const location = await Location.findById(req.params.id);
 
-//   if (location) {
-//     res.json(location);
-//   } else {
-//     res.status(404);
-//     throw new Error('Location not found');
-//   }
-// });
+  if (location) {
+    res.json(location);
+  } else {
+    res.status(404);
+    throw new Error('Location not found');
+  }
+});
 
 // @desc   Delete a location
 // @route  Delete /api/locations/:id
@@ -69,5 +69,5 @@ const getLocations = asyncHandler(async (req, res) => {
 
 //add update Location
 
-export { getLocations };
-// export { getLocations, getLocationById, deleteLocation, createLocation };
+export { getLocations, getLocationById };
+// export { getLocations, deleteLocation, createLocation };
