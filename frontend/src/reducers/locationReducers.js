@@ -11,6 +11,7 @@ import {
   LOCATION_CREATE_REQUEST,
   LOCATION_CREATE_SUCCESS,
   LOCATION_CREATE_FAIL,
+  LOCATION_CREATE_RESET,
 } from '../constants/locationConstants';
 
 export const locationListReducer = (state = { locations: [] }, action) => {
