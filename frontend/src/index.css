@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+main {
+  min-height: 80vh;
+}
 h1,
 h2,
 h3 {
@@ -11,27 +13,23 @@ h3 {
   padding: 10px;
 }
 
-.home-container {
+/* .home-container {
   background-image: url('assets/EdmondsFerryOlympicsFullI.jpeg');
   background-position: center;
   background-size: cover;
-  /* object-fit: cover; */
-  /* object-fit: none; */
-  /* object-fit: scale-down; */
-  /* object-fit: fill; */
-  /* object-fit: contain; */
+  
 
-  /* width: 160px; */
+  width: 160px;
   height: 160px;
   border: 2px solid;
-  /* color: pink; */
+  color: pink;
   resize: both;
-  /* overflow: scroll; */
+  overflow: scroll;
 
   min-height: 90vh;
-}
+} */
 
-.pnp-container {
+/* .pnp-container {
   background-image: url('assets/PointNoPointMainFull.jpeg');
   background-position: center;
   background-size: cover;
@@ -39,61 +37,61 @@ h3 {
   border: 2px solid;
   resize: both;
   min-height: 90vh;
-}
+} */
 
-.kingston-container {
+/* .kingston-container {
   background-image: url('assets/kingstonPH.jpeg');
   background-position: center;
   background-size: cover;
   height: 160px;
-  /* border: 2px solid; */
+  
   resize: both;
   min-height: 90vh;
-}
+} */
 
-.paulsbo-container {
+/* .paulsbo-container {
   background-image: url('assets/paulsboPH.jpeg');
   background-position: center;
   background-size: cover;
   height: 160px;
-  /* border: 2px solid; */
+  border: 2px solid;
   resize: both;
   min-height: 90vh;
-}
+} */
 
-.portGamble-container {
+/* .portGamble-container {
   background-image: url('assets/portGamblePH.jpeg');
   background-position: center;
   background-size: cover;
   height: 160px;
-  /* border: 2px solid; */
+  border: 2px solid;
   resize: both;
   min-height: 90vh;
-}
-.paulsboro-container {
+} */
+/* .paulsboro-container {
   background-image: url('assets/paulsboPH.jpeg');
   background-position: center;
   background-size: cover;
   height: 160px;
-  /* border: 2px solid; */
+  border: 2px solid;
   resize: both;
   min-height: 90vh;
-}
+} */
 
-.edmonds-container {
+/* .edmonds-container {
   background-image: url('assets/kingstonPH.jpeg');
   background-position: center;
   background-size: cover;
   height: 160px;
-  /* border: 2px solid; */
+  border: 2px solid;
   resize: both;
   min-height: 90vh;
-}
+} */
 
-.one {
+/* .one {
   background-position: center;
   background-size: cover;
   opacity: 1;
   position: relative;
   width: 100%;
-}
+} */
