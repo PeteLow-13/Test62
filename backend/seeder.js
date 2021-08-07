@@ -36,19 +36,19 @@ const importData = async () => {
   }
 };
 
-// const destroyData = async () => {
-//     try{
-//         await Order.deleteMany();
-//         await Product.deleteMany();
-//         await User.deleteMany();
+const destroyData = async () => {
+  try {
+    // await Order.deleteMany();
+    // await Product.deleteMany();
+    // await User.deleteMany();
 
-//         console.log('Data Destroyed!'.red.inverse)
-//         process.exit();
-//     } catch (error) {
-//         console.error(`${error}`.red.inverse);
-//         process.exit(1);
-//     }
-// }
+    console.log('Data Destroyed!'.red.inverse);
+    process.exit();
+  } catch (error) {
+    console.error(`${error}`.red.inverse);
+    process.exit(1);
+  }
+};
 //delete when in production
 if (process.argv[2] === '-d') {
   destroyData();
