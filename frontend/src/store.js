@@ -5,6 +5,8 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import {
   locationListReducer,
   locationDetailsReducer,
+  locationCreateReducer,
+  locationDeleteReducer,
 } from './reducers/locationReducers';
 import {
   userLoginReducer,
@@ -19,7 +21,8 @@ import {
 const reducer = combineReducers({
   locationList: locationListReducer,
   locationDetails: locationDetailsReducer,
-
+  locationDelete: locationDeleteReducer,
+  locationCreate: locationCreateReducer,
   userLogin: userLoginReducer,
   userRegister: userRegisterReducer,
   userDetails: userDetailsReducer,
