@@ -15,13 +15,14 @@ import {
 } from '../constants/locationConstants';
 
 export const listLocations =
-  (keyword = '', pageNumber = '') =>
-  async (dispatch) => {
+  // (keyword = '', pageNumber = '')
+  () => async (dispatch) => {
     try {
       dispatch({ type: LOCATION_LIST_REQUEST });
 
       const { data } = await axios.get(
-        `/api/products?keyword=${keyword}&pageNumber=${pageNumber}`
+        // `/api/locations?keyword=${keyword}&pageNumber=${pageNumber}`
+        `/api/locations`
       );
 
       dispatch({
