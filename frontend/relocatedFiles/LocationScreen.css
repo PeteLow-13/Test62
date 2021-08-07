@@ -1,0 +1,79 @@
+.destinationChoice1 h3 {
+  background-image: url('../assets/PointNoPointMainFull.jpeg');
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  color: #fff;
+  /* position: relative; */
+  border: 2px 2px 2px 2px solid #fff;
+  /* float: left; */
+  /* width: 33.33%; */
+  min-height: 255px;
+}
+.destinationChoice2 h3 {
+  background-image: url('../assets/PortGambleMainFull.jpeg');
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  color: #fff;
+  /* position: relative; */
+  border: 2px 2px 2px 2px solid #fff;
+  /* float: left; */
+  /* width: 33.33%; */
+  min-height: 255px;
+}
+.destinationChoice3 h3 {
+  background-image: url('../assets/orcasPH.jpeg');
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  color: #fff;
+  /* position: relative; */
+  border: 2px 2px 2px 2px solid #fff;
+  /* float: left; */
+  /* width: 33.33%; */
+  min-height: 255px;
+}
+
+.destinationChoice4 h3 {
+  background-image: url('../assets/paulsboPH.jpeg');
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  color: #fff;
+  /* position: relative; */
+  border: 2px 2px 2px 2px solid #fff;
+  /* float: left; */
+  /* width: 33.33%; */
+  min-height: 255px;
+}
+
+.destinationChoice5 h3 {
+  background-image: url('../assets/kingstonPH.jpeg');
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  color: white;
+  /* position: relative; */
+  border: 2px 2px 2px 2px solid #fff;
+  /* float: left; */
+  /* width: 33.33%; */
+  min-height: 255px;
+}
+
+.destinationChoice6 h3 {
+  background-image: url('../assets/camanoPH.jpeg');
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  color: #fff;
+  /* position: relative; */
+  border: 2px 2px 2px 2px solid #fff;
+  /* float: left; */
+  /* width: 33.33%; */
+  min-height: 255px;
+}
+
+a {
+  background-color: transparent;
+}
