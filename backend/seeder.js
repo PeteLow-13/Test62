@@ -1,9 +1,9 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import colors from 'colors';
-
+import users from './data/users.js';
 import locations from './data/locations.js';
-
+import User from './models/userModel.js';
 import Location from './models/locationModel.js';
 
 import connectDB from './config/db.js';
@@ -14,17 +14,15 @@ connectDB();
 
 const importData = async () => {
   try {
-    // await Order.deleteMany();
-    // await Product.deleteMany();
-    // await User.deleteMany();
+    await Location.deleteMany();
+    await User.deleteMany();
 
-    // const createdUsers=  await User.insertMany(users);
+    const createdUsers = await User.insertMany(users);
 
-    // const adminUser = createdUsers[0]._id;
+    const adminUser = createdUsers[0]._id;
 
     const sampleLocations = locations.map((location) => {
-      return { ...location };
-      //   return { ...location, user: adminUser };
+      return { ...location, user: adminUser };
     });
 
     await Location.insertMany(sampleLocations);
@@ -38,9 +36,8 @@ const importData = async () => {
 
 const destroyData = async () => {
   try {
-    // await Order.deleteMany();
-    // await Product.deleteMany();
-    // await User.deleteMany();
+    await Location.deleteMany();
+    await User.deleteMany();
 
     console.log('Data Destroyed!'.red.inverse);
     process.exit();
