@@ -61,6 +61,7 @@ const createLocation = asyncHandler(async (req, res) => {
   const location = new Location({
     name: 'sample',
     user: req.user._id,
+    //add image and other data as it is ready
   });
 
   const createdLocation = await location.save();
