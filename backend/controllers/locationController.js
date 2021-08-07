@@ -42,32 +42,31 @@ const getLocationById = asyncHandler(async (req, res) => {
 // @desc   Delete a location
 // @route  Delete /api/locations/:id
 // @access  Private/admin
-// const deleteLocation = asyncHandler(async (req, res) => {
-//   const location = await Location.findById(req.params.id);
+const deleteLocation = asyncHandler(async (req, res) => {
+  const location = await Location.findById(req.params.id);
 
-//   if (location) {
-//     await location.remove();
-//     res.json({ message: 'location removed' });
-//   } else {
-//     res.status(404);
-//     throw new Error('Location not found');
-//   }
-// });
+  if (location) {
+    await location.remove();
+    res.json({ message: 'location removed' });
+  } else {
+    res.status(404);
+    throw new Error('Location not found');
+  }
+});
 
 // @desc   Create new location
 // @route  Post /api/locations
 // @access  Private/admin
-// const createLocation = asyncHandler(async (req, res) => {
-//   const location = new Location({
-//     name: 'sample',
-//     user: req.user._id,
-//   });
+const createLocation = asyncHandler(async (req, res) => {
+  const location = new Location({
+    name: 'sample',
+    user: req.user._id,
+  });
 
-//   const createdLocation = await location.save();
-//   res.status(201).json(createdlocation);
-// });
+  const createdLocation = await location.save();
+  res.status(201).json(createdlocation);
+});
 
-//add update Location
+//add update Location, dont forget Pedro!!
 
-export { getLocations, getLocationById };
-// export { getLocations, deleteLocation, createLocation };
+export { getLocations, getLocationById, deleteLocation, createLocation };
