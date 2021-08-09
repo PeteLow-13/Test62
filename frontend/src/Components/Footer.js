@@ -1,79 +1,57 @@
-import React from 'react'
-import './Footer.css'
-import * as FaIcons from 'react-icons/fa'
-
+import React from 'react';
+import './Footer.css';
+import * as FaIcons from 'react-icons/fa';
+import { Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
-    return (
-        <>
-        <footer class="mainfooter" role="contentinfo">
-            <div class="footer-middle">
-            <div class="container">
-                <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    {/* <!--Column1--> */}
-                    <div class="footer-pad">
-                    <h4>About</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#"></a></li>
-                        <li><a href="/about">About the Point of Going</a></li>
-                        <li><a href="/contact">Contact us</a></li>
-                        <li><a href="#">Privacy Policy, Terms of Use, & Accessability</a></li>
-                        <li><a href="/contact">Advertise with us</a></li>
-                        <li><a href="#">FAQs</a></li>
-                    </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    {/* <!--Column1--> */}
-                    <div class="footer-pad">
-                    <h4>Heading 2</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Website Tutorial</a></li>
-                        <li><a href="#">Accessibility</a></li>
-                        <li><a href="#">Disclaimer</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Webmaster</a></li>
-                    </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    {/* <!--Column1--> */}
-                    {/* <div class="footer-pad">
-                    <h4>Heading 3</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Parks and Recreation</a></li>
-                        <li><a href="#">Public Works</a></li>
-                        <li><a href="#">Police Department</a></li>
-                        <li><a href="#">Fire</a></li>
-                        <li><a href="#">Mayor and City Council</a></li>
-                        <li>
-                        <a href="#"></a>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-                    <div class="col-md-3"> */}
-                        <h4>Follow Us</h4>
-                        <ul class="social-network social-circle">
-                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>				
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 copy">
-                        <p class="text-center">&copy; Copyright 2021 - The Point of Going.  All rights reserved.</p>
-                    </div>
-                </div>
+  return (
+    <>
+      <footer class='mainfooter' role='contentinfo'>
+        {/* <div class="footer-middle"> */}
+        <div class='container'>
+          <Row>
+            <Col className='col-md-3 col-sm-6'>
+              {/* <!--Column1--> */}
+              <a href='/locations'>destinations</a>
+            </Col>
 
+            <Col className='col-md-3 col-sm-6'>
+              {/* <!--Column1--> */}
+              <a href='/about'>About us</a>
+            </Col>
+            <Col className='col-md-3 col-sm-6'>
+              {/* <!--Column1--> */}
+              <a href='/contact'>Contact us</a>
+            </Col>
+            <Col class='col-md-3 col-sm-6'>
+              {/* <!--Column1--> */}
 
-            </div>
-            </div>
-        </footer>
-        </>
-    )
-}
+              <h4>Follow Us</h4>
+              <ul class='social-network social-circle'>
+                <li>
+                  <a href='#' class='icoFacebook' title='Facebook'>
+                    <i class='fa fa-facebook'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href='#' class='icoLinkedin' title='Linkedin'>
+                    <i class='fa fa-linkedin'></i>
+                  </a>
+                </li>
+              </ul>
+            </Col>
+          </Row>
+          <Row>
+            <Col className='col-md-12 copy'>
+              <p className='text-center'>
+                &copy; Copyright 2021 - The Point of Going. All rights reserved.
+              </p>
+            </Col>
+          </Row>
+        </div>
+      </footer>
+    </>
+  );
+};
 
-export default Footer
+export default Footer;
