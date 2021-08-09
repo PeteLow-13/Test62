@@ -64,7 +64,7 @@ const createLocation = asyncHandler(async (req, res) => {
     //add image and other data as it is ready
   });
 
-  const createdLocation = await location.save();
+  const createLocation = await location.save();
   res.status(201).json(createdlocation);
 });
 
