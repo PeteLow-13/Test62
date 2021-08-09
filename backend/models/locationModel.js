@@ -1,13 +1,15 @@
-import mongoose from 'mongoose'
-
+import mongoose from 'mongoose';
 
 const locationSchema = mongoose.Schema(
-    {
-        name: {type: String, required: true},
-        image: {type: String, required: true}
-    }
-)
+  {
+    name: { type: String, required: true },
+    image: { type: String, required: true },
+  },
+  {
+    timestamps: true,
+  }
+);
 
-const Location = mongoose.model('Location', locationSchema)
+const Location = mongoose.model('Location', locationSchema);
 
-export default Location
+export default Location;
