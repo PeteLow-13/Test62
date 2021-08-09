@@ -10,8 +10,6 @@ import {
 
 import { protect, admin } from '../middleware/authMiddleware.js';
 
-router.route('/').get(getLocations);
-
 router.route('/').get(getLocations).post(protect, admin, createLocation);
 
 router
