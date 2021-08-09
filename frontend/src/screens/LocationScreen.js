@@ -14,12 +14,18 @@ import Message from '../Components/Message';
 import Loader from '../Components/Loader';
 import { listLocationDetails } from '../actions/locationActions';
 
-const LocationScreen = () => {
+const LocationScreen = ({ match }) => {
+  const dispatch = useDispatch();
+
   const locationDetails = useSelector((state) => state.locationDetails);
   const { loading, error, location } = locationDetails;
 
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
+
+  useEffect(() => {
+    dispatch(listLocationDetails(match.params.id));
+  }, [dispatch, match]);
 
   return (
     <>
