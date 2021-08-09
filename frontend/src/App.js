@@ -23,6 +23,7 @@ function App() {
           <Route path='/' component={HomeScreen} exact />
         </Container>
       </main>
+      <Footer />
     </Router>
     // <div className='App'>
     //   <Container fluid>
