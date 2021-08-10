@@ -6,27 +6,27 @@ import { Row, Col } from 'react-bootstrap';
 const Footer = () => {
   return (
     <>
-      <footer class='mainfooter' role='contentinfo'>
+      <footer className='mainfooter' role='contentinfo'>
         {/* <div class="footer-middle"> */}
         <div class='container'>
           <Row>
             <Col className='col-md-3 col-sm-6'>
               {/* <!--Column1--> */}
-              <a href='/locations'>destinations</a>
+              <a href='/locationselect'>destinations</a>
             </Col>
 
             <Col className='col-md-3 col-sm-6'>
               {/* <!--Column1--> */}
-              <a href='/about'>About us</a>
+              <a href='/about'>about us</a>
             </Col>
             <Col className='col-md-3 col-sm-6'>
               {/* <!--Column1--> */}
-              <a href='/contact'>Contact us</a>
+              <a href='/contact'>contact us</a>
             </Col>
             <Col class='col-md-3 col-sm-6'>
               {/* <!--Column1--> */}
 
-              <h4>Follow Us</h4>
+              <h4>follow us</h4>
               <ul class='social-network social-circle'>
                 <li>
                   <a href='#' class='icoFacebook' title='Facebook'>
