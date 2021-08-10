@@ -1,7 +1,7 @@
 const locations = [
   {
     name: 'Port Gamble',
-    image: '/images/PortGambleMainFull.jpeg',
+    image: '/images/PortGambleMainFull.jpg',
   },
   {
     name: 'Point No Point',
