@@ -22,7 +22,7 @@ const HomeScreen = ({}) => {
 
   return (
     <>
-      <h1>Locations</h1>
+      <h1>destinations</h1>
       {loading ? (
         <Loader />
       ) : error ? (
@@ -30,7 +30,7 @@ const HomeScreen = ({}) => {
       ) : (
         <Row>
           {locations.map((location) => (
-            <Col sm={12} md={12} lg={6} xl={6}>
+            <Col key={location.id} sm={12} md={12} lg={6} xl={6}>
               <Location location={location} />
             </Col>
           ))}
