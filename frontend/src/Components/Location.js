@@ -4,18 +4,16 @@ import { Link } from 'react-router-dom';
 
 const Location = ({ location }) => {
   return (
-    <Card className='my-3 p-3 rounded'>
-      <Link to={`/location/${location._id}`}>
-        <Card.Img src={location.image} variant='bottom' />
-      </Link>
+    <Card className='my-3 p-3'>
       <Card.Body>
-        <Card.Text as='h3'>${location.name}</Card.Text>
-        <Link to={`/location/${location._id}`}>
-          <Card.Title as='div'>
-            <strong>{location.name}</strong>
-          </Card.Title>
+        {/* <Card.Text as='h3'>{location.name}</Card.Text> */}
+        <Link to={`/locations/${location._id}`}>
+          <Card.Text as='h3'>{location.name}</Card.Text>
         </Link>
       </Card.Body>
+      <Link to={`/locations/${location._id}`}>
+        <Card.Img src={location.image} variant='bottom' />
+      </Link>
     </Card>
   );
 };
