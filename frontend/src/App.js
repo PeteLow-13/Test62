@@ -19,7 +19,8 @@ function App() {
         <Container>
           <Route path='/about' exact component={AboutScreen} />
           <Route path='/contact' exact component={ContactScreen} />
-          <Route path='/locations' component={LocationScreen} />
+          <Route path='/locations/:id' component={LocationScreen} />
+          <Route path='/locationselect' component={LocationSelectScreen} />
           <Route path='/' component={HomeScreen} exact />
         </Container>
       </main>
