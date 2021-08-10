@@ -3,7 +3,7 @@ import React from 'react';
 const AboutScreen = () => {
   return (
     <>
-      <h1>About Us</h1>
+      <h1>about us</h1>
       <div className='second-section'>
         <p>
           The Point of Going is a travel site, dedicated to sharing unique
