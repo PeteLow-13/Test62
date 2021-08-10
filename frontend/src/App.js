@@ -1,16 +1,12 @@
 import { Container } from 'react-bootstrap';
-
-import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import LocationScreen from './screens/LocationScreen';
 import AboutScreen from './screens/AboutScreen';
 import ContactScreen from './screens/ContactScreen';
 import LocationSelectScreen from './screens/LocationSelectScreen';
-
-import PointNoPointScreen from './screens/PointNoPointScreen';
-import KingstonScreen from './screens/KingstonScreen';
 import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
