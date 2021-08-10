@@ -5,7 +5,6 @@ import users from './data/users.js';
 import locations from './data/locations.js';
 import User from './models/userModel.js';
 import Location from './models/locationModel.js';
-
 import connectDB from './config/db.js';
 
 dotenv.config();
@@ -14,13 +13,16 @@ connectDB();
 
 const importData = async () => {
   try {
+    //clear out entire database
     await Location.deleteMany();
     await User.deleteMany();
 
+    // add users to database from users.js
     const createdUsers = await User.insertMany(users);
 
     const adminUser = createdUsers[0]._id;
 
+    //add locations to database from locations.js
     const sampleLocations = locations.map((location) => {
       return { ...location, user: adminUser };
     });
@@ -46,7 +48,7 @@ const destroyData = async () => {
     process.exit(1);
   }
 };
-//delete when in production
+//delete when in production node backend/seeder -d
 if (process.argv[2] === '-d') {
   destroyData();
 } else {
