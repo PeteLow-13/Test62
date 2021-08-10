@@ -13,85 +13,11 @@ h3 {
   padding: 10px;
 }
 
-/* .home-container {
-  background-image: url('assets/EdmondsFerryOlympicsFullI.jpeg');
-  background-position: center;
-  background-size: cover;
-  
-
-  width: 160px;
-  height: 160px;
-  border: 2px solid;
-  color: pink;
-  resize: both;
-  overflow: scroll;
-
-  min-height: 90vh;
-} */
-
-/* .pnp-container {
-  background-image: url('assets/PointNoPointMainFull.jpeg');
-  background-position: center;
-  background-size: cover;
-  height: 160px;
-  border: 2px solid;
-  resize: both;
-  min-height: 90vh;
-} */
-
-/* .kingston-container {
-  background-image: url('assets/kingstonPH.jpeg');
-  background-position: center;
-  background-size: cover;
-  height: 160px;
-  
-  resize: both;
-  min-height: 90vh;
-} */
-
-/* .paulsbo-container {
-  background-image: url('assets/paulsboPH.jpeg');
-  background-position: center;
-  background-size: cover;
-  height: 160px;
-  border: 2px solid;
-  resize: both;
-  min-height: 90vh;
-} */
-
-/* .portGamble-container {
-  background-image: url('assets/portGamblePH.jpeg');
-  background-position: center;
-  background-size: cover;
-  height: 160px;
-  border: 2px solid;
-  resize: both;
-  min-height: 90vh;
-} */
-/* .paulsboro-container {
-  background-image: url('assets/paulsboPH.jpeg');
-  background-position: center;
-  background-size: cover;
-  height: 160px;
-  border: 2px solid;
-  resize: both;
-  min-height: 90vh;
-} */
-
-/* .edmonds-container {
-  background-image: url('assets/kingstonPH.jpeg');
-  background-position: center;
-  background-size: cover;
-  height: 160px;
-  border: 2px solid;
-  resize: both;
-  min-height: 90vh;
-} */
-
-/* .one {
-  background-position: center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  width: 100%;
-} */
+.know,
+.go,
+.eat,
+.drink,
+.play,
+.stay {
+  min-height: 80vh;
+}
