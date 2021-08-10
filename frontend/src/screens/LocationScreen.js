@@ -20,8 +20,8 @@ const LocationScreen = ({ match }) => {
   const locationDetails = useSelector((state) => state.locationDetails);
   const { loading, error, location } = locationDetails;
 
-  const userLogin = useSelector((state) => state.userLogin);
-  const { userInfo } = userLogin;
+  // const userLogin = useSelector((state) => state.userLogin);
+  // const { userInfo } = userLogin;
 
   useEffect(() => {
     dispatch(listLocationDetails(match.params.id));
@@ -29,8 +29,8 @@ const LocationScreen = ({ match }) => {
 
   return (
     <>
-      <Link className='btn btn-light my-3' to='/locationSelectScreen'>
-        Back to Locations
+      <Link className='btn btn-light my-3' to='/locationselect'>
+        back to destinations
       </Link>
       {loading ? (
         <Loader />
