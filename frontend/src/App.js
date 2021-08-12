@@ -11,6 +11,7 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <Router>
+      <Navbar />
       <main className='py-3'>
         <Container>
           <Route path='/about' exact component={AboutScreen} />
