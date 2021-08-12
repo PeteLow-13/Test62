@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Row, Image } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import Location from '../Components/Location';
 import Loader from '../Components/Loader';
 import Message from '../Components/Message';
 
 import { listLocations } from '../actions/locationActions';
+import Ferry from '../images/EdmondsFerryOlympicsFullI.jpg';
 
 const HomeScreen = ({}) => {
   const locationList = useSelector((state) => state.locationList);
@@ -22,7 +23,13 @@ const HomeScreen = ({}) => {
 
   return (
     <>
-      <h1>destinations</h1>
+      <h1>the point of going</h1>
+      <Row>
+        <Col md={12}>
+          <Image src={Ferry} alt='Photo of ferry and olympic mountains' fluid />
+        </Col>
+      </Row>
+      <h2>destinations</h2>
       {loading ? (
         <Loader />
       ) : error ? (
