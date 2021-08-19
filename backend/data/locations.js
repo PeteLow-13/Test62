@@ -19,10 +19,14 @@ const locations = [
   {
     name: 'Point No Point',
     image: '/images/PointNoPointMainFull.jpg',
-    point1: '',
-    point2: '',
-    point3: '',
-    bonusPoint: '',
+    point1:
+      'Point No Point is located on the northeastern tip of the Kitsap Peninsula in Hansville Washington, west of Whidbey Island. It was named by U.S. Navy Lt. Charles Wilkes, who commanded the United States Exploring Expedition in 1841. Approaching the spit of land, he thought it was a substantial point, but realizing it was much smaller than he expected, he named it Point No Point.',
+    point2:
+      "Point No Point is home to the oldest lighthouse in the Puget Sound. It was first lit in1879, and is listed on the National Register of Historic Places. The Lighthouse Keepers Quarters are available for lodging. Proceeds realized from the rental of the historic keeper ' s quarters are directed to the preservation of the Point No Point Light Station",
+    point3:
+      'In 1855 the Point No Point Treaty was signed at this location between Governor of Washington Territory and 82 different tribal leaders. It established an agreement of rights between the United States government and the Native American tribes of the greater Puget Sound region in the Washington Territory). The treaty was signed by the Territorial Governor Isaac Stevens, Suquamish and Dwamish (Duwamish tribe) Chief Seattle, Snoqualmoo (Snoqualmie tribe) and Sno-ho-mish Chief Patkanim (as Pat-ka-nam), Lummi Chief Chow-its-hoot, and Skagit Chief Goliah. It established reservation land, fishing rights, $60,000, a free agricultural and industrial school, and free access to a physician, a blacksmith, a carpenter and a farmer.',
+    bonusPoint:
+      'bonus point: Point No Point beach is loaded with driftwood, and makeshift driftwood shacks.',
     go: '',
     eat: '',
     drink: '',
