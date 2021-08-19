@@ -12,7 +12,19 @@ const Know = () => {
       <Row className='know' id='know'>
         <Col>
           <h2>know the point of going {location.name}</h2>
-          {/* <p>{location.knowContent}</p> */}
+          <ol>
+            <li>
+              1. <p>{location.point1}</p>
+            </li>
+            <li>
+              2. <p>{location.point2}</p>
+            </li>
+            <li>
+              3. <p>{location.point3}</p>
+            </li>
+          </ol>
+
+          <p>bonus point: {location.bonusPoint}</p>
         </Col>
         <TagBar />
       </Row>
