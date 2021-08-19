@@ -52,10 +52,14 @@ const locations = [
   {
     name: 'Kingston',
     image: '/images/KingstonMainFull.jpg',
-    point1: '',
-    point2: '',
-    point3: '',
-    bonusPoint: '',
+    point1:
+      'Kingston’s name started out as a joke. Originally founded in1853 by Benjamin Bannister, it was known as "Appletree Cove”. In 1874, a man named Michael King moved to the area and started a logging operation. He built many small buildings and shacks along the shore for his men and animals, but in1882, he moved on. The shacks and bunkhouses were left behind and lived in by drifters, squatters and old loggers. As a joke, folks starting referring to it as "King \' s Town”. The name evolved into Kingston and the joke stuck. ',
+    point2:
+      'Just going to Kingston is part of the fun. There are two daily ferry systems servicing Kingston. Washington State Ferries carry cars and passengers between Kingston and Edmonds, and Kitsap Fast Ferries offer passenger-only service between Kingston and downtown Seattle. And the town is very walkable, so traveling here without a car is easy.',
+    point3:
+      'Kingston is home to the My Girl Drive-In and Museum, an authentic replica of a 1950’s drive-in restaurant. It houses 10,000 square feet of collectibles including an extensive collection of Elvis and rock and roll memorabilia. Located on 6 acres in a wooded setting with adequate parking space for large outdoor events and barbecues, and it is available for private or corporate functions, wedding receptions, retirement or birthday parties, high school reunions, family gatherings or fund-raising events.',
+    bonusPoint:
+      'Kingston is known as the "Little City by the Sea” and the northern gateway to the Olympic Peninsula..',
     go: '',
     eat: '',
     drink: '',
