@@ -9,6 +9,12 @@ const locationSchema = mongoose.Schema(
     },
     name: { type: String, required: true },
     image: { type: String, required: true },
+    point: { type: String, required: false },
+    go: { type: String, required: false },
+    eat: { type: String, required: false },
+    drink: { type: String, required: false },
+    play: { type: String, required: false },
+    stay: { type: String, required: false },
   },
   {
     timestamps: true,
