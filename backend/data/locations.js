@@ -19,7 +19,10 @@ const locations = [
   {
     name: 'Point No Point',
     image: '/images/PointNoPointMainFull.jpg',
-    point: '',
+    point1: '',
+    point2: '',
+    point3: '',
+    bonusPoint: '',
     go: '',
     eat: '',
     drink: '',
@@ -29,7 +32,13 @@ const locations = [
   {
     name: 'Poulsbo',
     image: '/images/PoulsboMainFull.jpg',
-    point: '',
+    point1:
+      'Visiting Poulsbo is like a short trip to Norway. Norwegian immigrant Ole Stubb and family arrived on the bay in 1875. The town was founded in the1880s by another Norwegian immigrant, Jorgen Eliason. In 1886, I.B. Moe, yet another early settler, proposed establishing a post office. He suggested the town be named "Paulsbo", after his hometown in Norway. The petition was granted, and Moe became the first postmaster. Authorities in Washington, D.C. misspelled the town \' s name, possibly due to his handwriting, and it officially became "Poulsbo”. Most residents spoke Norwegian as their primary language until World War II. In 1975, King Olav V of Norway visited Poulsbo as part of the celebration of 150 years of Norwegian immigration to the United States. His son, Harald, visited 20 years later.',
+    point2:
+      'Poulsbo celebrates Viking Days every year, a popular three-day festival. It features parades, bands, Scandinavian dancing, street food vendors, craft booths, and lots of people dressed in Viking costumes.',
+    point3:
+      "Another popular local event is Chief Seattle Days. This area was first settled by the Suquamish Native American people. Their Chief Seattle (1786-1866), for whom the city pf Seattle is named, was a leader of both the Suquamish and Duwamish tribes in the area. Every year a three-day inter-tribal festival honoring him is held on the Suquamish Reservation nearby. It features dances and drumming, plus Northwest traditions like salmon and clam bakes, and canoe races. The festival closes with the blessing of Chief Seattle ' s grave.",
+    bonusPoint: '',
     go: '',
     eat: '',
     drink: '',
@@ -39,7 +48,10 @@ const locations = [
   {
     name: 'Kingston',
     image: '/images/KingstonMainFull.jpg',
-    point: '',
+    point1: '',
+    point2: '',
+    point3: '',
+    bonusPoint: '',
     go: '',
     eat: '',
     drink: '',
@@ -49,7 +61,10 @@ const locations = [
   {
     name: 'Edmonds',
     image: '/images/EdmondsMainFull.jpg',
-    point: '',
+    point1: '',
+    point2: '',
+    point3: '',
+    bonusPoint: '',
     go: '',
     eat: '',
     drink: '',
