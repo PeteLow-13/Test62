@@ -26,7 +26,7 @@ const locations = [
     point3:
       'In 1855 the Point No Point Treaty was signed at this location between Governor of Washington Territory and 82 different tribal leaders. It established an agreement of rights between the United States government and the Native American tribes of the greater Puget Sound region in the Washington Territory). The treaty was signed by the Territorial Governor Isaac Stevens, Suquamish and Dwamish (Duwamish tribe) Chief Seattle, Snoqualmoo (Snoqualmie tribe) and Sno-ho-mish Chief Patkanim (as Pat-ka-nam), Lummi Chief Chow-its-hoot, and Skagit Chief Goliah. It established reservation land, fishing rights, $60,000, a free agricultural and industrial school, and free access to a physician, a blacksmith, a carpenter and a farmer.',
     bonusPoint:
-      'bonus point: Point No Point beach is loaded with driftwood, and makeshift driftwood shacks.',
+      ' Point No Point beach is loaded with driftwood, and makeshift driftwood shacks.',
     go: '',
     eat: '',
     drink: '',
@@ -43,7 +43,19 @@ const locations = [
     point3:
       "Another popular local event is Chief Seattle Days. This area was first settled by the Suquamish Native American people. Their Chief Seattle (1786-1866), for whom the city pf Seattle is named, was a leader of both the Suquamish and Duwamish tribes in the area. Every year a three-day inter-tribal festival honoring him is held on the Suquamish Reservation nearby. It features dances and drumming, plus Northwest traditions like salmon and clam bakes, and canoe races. The festival closes with the blessing of Chief Seattle ' s grave.",
     bonusPoint: '',
-    go: '',
+    go1: {
+      h3: 'From Edmonds/Kingston Ferry to Poulsbo',
+      li: 'Drive off ferry through Kingston go 5 to 6 miles, to the 5th stop light by the Texaco Station.',
+      li: 'Continue straight on Bond Rd NE about 9 miles to Front St NE in Poulsbo.',
+      li: 'Follow Front St NE into downtown Poulsbo.',
+    },
+    go2: {
+      h3: 'From Seattle/Bainbridge Island to Poulsbo',
+      li: 'Drive off Bainbridge Island Ferry, follow SR 305 (north) for 11.5 miles.',
+      li: 'Turn left onto NE Iverson St toward downtown Poulsbo.',
+      li: 'Turn left onto Jensen Way NE.',
+      li: 'Turn left on Front St NE and continue into downtown Poulsbo. ',
+    },
     eat: '',
     drink: '',
     play: '',
