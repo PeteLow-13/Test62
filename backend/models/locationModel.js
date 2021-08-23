@@ -13,7 +13,14 @@ const locationSchema = mongoose.Schema(
     point2: { type: String, required: false },
     point3: { type: String, required: false },
     bonusPoint: { type: String, required: false },
-    go: { type: String, required: false },
+    go1: {
+      h3: { type: String },
+      li: { type: String },
+    },
+    go2: {
+      h3: { type: String },
+      li: { type: String },
+    },
     eat: { type: String, required: false },
     drink: { type: String, required: false },
     play: { type: String, required: false },
