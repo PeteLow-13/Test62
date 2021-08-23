@@ -14,17 +14,17 @@ const Know = () => {
           <h2>know the point of going {location.name}</h2>
           <ol>
             <li>
-              1. <p>{location.point1}</p>
+              <p>{location.point1}</p>
             </li>
             <li>
-              2. <p>{location.point2}</p>
+              <p>{location.point2}</p>
             </li>
             <li>
-              3. <p>{location.point3}</p>
+              <p>{location.point3}</p>
             </li>
           </ol>
 
-          <p>bonus point: {location.bonusPoint}</p>
+          <p className='bonus-point'>bonus point: {location.bonusPoint}</p>
         </Col>
         <TagBar />
       </Row>
