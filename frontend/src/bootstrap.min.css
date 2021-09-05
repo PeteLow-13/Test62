@@ -11,7 +11,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 /* Change on line 531 */
+
 @import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap);
+/* @import url(href=https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap); */
+
 :root {
   --bs-blue: #007bff;
   --bs-indigo: #6610f2;
