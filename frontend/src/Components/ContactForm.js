@@ -1,5 +1,6 @@
 import React from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form, Button, Image } from 'react-bootstrap';
+import IconBar from '../images/travelicons.jpg';
 
 const ContactForm = () => {
   return (
@@ -31,6 +32,7 @@ const ContactForm = () => {
           Send
         </Button>
       </Form>
+      <Image src={IconBar} alt='icon bar' fluid />
     </>
   );
 };
