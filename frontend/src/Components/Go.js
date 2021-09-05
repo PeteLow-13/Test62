@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Img } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import TagBar from './TagBar';
 
@@ -11,7 +11,7 @@ const Go = () => {
       <Row className='go' id='go'>
         <Col>
           <h2>how to go {location.name}</h2>
-          <Img src={location.image} />
+          <Image src={location.image} />
           <h3>{location.go1.h3}</h3>
           <ul>{location.go1.li.map()}</ul>
           {/* <p>{location.knowContent}</p> */}

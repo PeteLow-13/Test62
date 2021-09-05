@@ -1,4 +1,6 @@
 import React from 'react';
+import { Image } from 'react-bootstrap';
+import IconBar from '../images/travelicons.jpg';
 
 const AboutScreen = () => {
   return (
@@ -17,6 +19,7 @@ const AboutScreen = () => {
         </p>
         <p>We also look forward to your feedback and recomendations.</p>
       </div>
+      <Image src={IconBar} alt='icon bar' fluid />
     </>
   );
 };
