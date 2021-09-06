@@ -13,6 +13,51 @@ const Eat = () => {
         <h2>where to eat {location.name}</h2>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
+            <Card.Img src={location.eat1Image} />
+            <Card.Body>
+              <Card.Title>{location.eat1name}</Card.Title>
+              <Card.Text className='address'>
+                {location.eat1Address}
+              </Card.Text>
+              <Card.Text className='phone'>{location.eat1Phone}</Card.Text>
+              <Card.Text className='description'>
+                {location.eat1Description}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col sm={12} md={4} lg={4} xl={4}3
+          <Card>
+            <Card.Img src={location.eat2Image} />
+            <Card.Body>
+              <Card.Title>{location.eat2name}</Card.Title>
+              <Card.Text className='address'>
+                {location.eat2Address}
+              </Card.Text>
+              <Card.Text className='phone'>{location.eat2Phone}</Card.Text>
+              <Card.Text className='description'>
+                {location.eat2Description}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col sm={12} md={4} lg={4} xl={4}>
+          <Card>
+            <Card.Img src={location.eat3Image} />
+            <Card.Body>
+              <Card.Title>{location.eat3name}</Card.Title>
+              <Card.Text className='address'>
+                {location.eat3Address}
+              </Card.Text>
+              <Card.Text className='phone'>{location.eat3Phone}</Card.Text>
+              <Card.Text className='description'>
+                {location.eat3Description}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col sm={12} md={4} lg={4} xl={4}>
+          <Card>
             <Card.Img src={location.image} />
             <Card.Body>
               <Card.Title>Scratch kitchen</Card.Title>
@@ -53,8 +98,7 @@ const Eat = () => {
               </Card.Text>
               <Card.Text className='phone'>(360) 297-9500</Card.Text>
               <Card.Text className='description'>
-                A locally sourced farmhouse restaurant, butcher shop and bakery
-                that offers small batch provisions and dining.
+                
               </Card.Text>
             </Card.Body>
           </Card>
