@@ -13,48 +13,39 @@ const Play = () => {
         <h2>where to Play {location.name}</h2>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src={location.image} />
+            <Card.Img src={location.play1Image} />
             <Card.Body>
-              <Card.Title>Scratch kitchen</Card.Title>
-              <Card.Text className='address'>
-                32420 N Rainier Ave ​ Port Gamble, WA 98364
-              </Card.Text>
-              <Card.Text className='phone'>(360) 297-7636</Card.Text>
+              <Card.Title>{location.play1name}</Card.Title>
+              <Card.Text className='address'>{location.play1Address}</Card.Text>
+              <Card.Text className='phone'>{location.play1Phone}</Card.Text>
               <Card.Text className='description'>
-                Good food, cold beer, nice people, awesome view. Local and
-                organic ingredients, offering compostable to go products too!
+                {location.play1Description}
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src={location.image} />
+            <Card.Img src={location.play2Image} />
             <Card.Body>
-              <Card.Title>Port Gamble General Store</Card.Title>
-              <Card.Text className='address'>
-                32400 N Rainier Ave ​Port Gamble, WA 98364{' '}
-              </Card.Text>
-              <Card.Text className='phone'>(360) 297-7636</Card.Text>
+              <Card.Title>{location.play2name}</Card.Title>
+              <Card.Text className='address'>{location.play2Address}</Card.Text>
+              <Card.Text className='phone'>{location.play2Phone}</Card.Text>
               <Card.Text className='description'>
-                A full cafe menu including sandwiches, soups, fresh baked goods,
-                ice cream, snacks, an espresso bar, and retail space with gifts.
+                {location.play2Description}
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
-            <Card.Img src={location.image} />
+            <Card.Img src={location.play3Image} />
             <Card.Body>
-              <Card.Title>Butcher & Baker</Card.Title>
-              <Card.Text className='address'>
-                4719 NE State Highway 104, Port Gamble WA 98364
-              </Card.Text>
-              <Card.Text className='phone'>(360) 297-9500</Card.Text>
+              <Card.Title>{location.play3name}</Card.Title>
+              <Card.Text className='address'>{location.play3Address}</Card.Text>
+              <Card.Text className='phone'>{location.play3Phone}</Card.Text>
               <Card.Text className='description'>
-                A locally sourced farmhouse restaurant, butcher shop and bakery
-                that offers small batch provisions and dining.
+                {location.play3Description}
               </Card.Text>
             </Card.Body>
           </Card>
