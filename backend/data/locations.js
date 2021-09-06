@@ -74,8 +74,46 @@ const locations = [
     drink3Phone: '(360) 297-7636',
     drink3Description:
       'Full bar, cold beer, nice people, awesome view. Local and organic ingredients, offering compostable to-go products.',
-    play: '',
-    stay: '',
+    play1Image: '/images/PortGamble/09PortGamblePlayHeritagePark.jpg',
+    play1name: 'Port Gamble Forest Heritage Park',
+    play1Address: '28901 Highway 104,​ Kingston, WA 98346',
+    play1Phone: '',
+    play1Description:
+      'The largest park in Kitsap County, this Heritage Park contains 60 miles of walking trails, equestrian trails, biking trails, access to water for water trails and kayaking, parking lot. It is a pack it in and pack it out type park',
+    play2Image: '/images/PortGamble/10PortGamblePlayOlympicOutdoor.jpg',
+    play2name: 'Olympic Outdoor Center',
+    play2Address: '32379 N Rainier Ave. ​Port Gamble, WA 98364',
+    play2Phone: '360-297-4659',
+    play2Description:
+      'Olympic Outdoor Center offers paddle sports events, guided tours, instruction, kayak and mountain bike rentals, and gear sales, in-store and on-line. Their staff is friendly and knowledgeable.',
+    play3Image: '/images/PortGamble/11PortGamblePlayQuiltedStraight.jpg',
+    play3name: 'Quilted Straight',
+    play3Address: '32280 Puget Ave NE, ​Port Gamble, WA 98364',
+    play3Phone: '(360) 297-7636',
+    play3Description:
+      'Located in the Old Stables Building, this shop offers the quilting classes, and an array of cotton, silk, and wool embroidery floss, pearl cotton, embellishment threads, ribbons, books, and patterns.',
+
+    stay1Image: '/images/PortGamble/12PortGambleStlayGuestHouses.jpg',
+    stay1name: 'Port Gamble Guest Houses',
+    stay1Address: 'Port Gamble, Washington',
+    stay1url: 'www.portgambleguesthouse.com/',
+    stay1Phone: '(360) 447-8473',
+    stay1Description:
+      'Historic homes in town can be rented for a special occasion or weekend getaway. Guest House 1 is a 3 bedroom 3 bath that sleeps 10 and Guest House 2 is a 3 bedroom 2 bath which sleeps 8.',
+    stay2Image: '/images/PortGamble/13PortGambleStayPointHotel.jpg',
+    stay2name: 'The Point Hotel',
+    stay2Address: '7989 NE Salish Lane, ​Kingston, WA 98346',
+    stay2url: 'www.thepointcasinoandhotel.com',
+    stay2Phone: '(360)-688-4441',
+    stay2Description:
+      'This hotel is not far from Port Gamble, with a casino, gym, meeting space, a gallery of indigenous artwork, multiple eateries and bars, plus  a nightclub/music venue. A ferry shuttle, and parking for RVs and cars are available.',
+    stay3Image: '/images/PortGamble/14PortGambleStayThorndykeLodge.jpg',
+    stay3name: 'Thorndyke Lodge',
+    stay3Address: 'Poulsbo, Washington',
+    stay3url: 'www.vrbo.com/355706',
+    stay3Phone: '',
+    stay3Description:
+      'This VRBO House (Sleeps 8-12) and offers a nature preserve-like setting by an unspoiled estuary in the Hood Canal, surrounded by old-growth forest.',
     footerImage: '/images/PortGamble/15PortGambleEndBicycleFullSize.jpg',
   },
   {
@@ -157,8 +195,47 @@ const locations = [
     drink3Phone: '(360) 638-0182',
     drink3Description:
       'The Center Bar is located in the middle of The Point Hotel and Casino, offering a full bar and a place to catch the game. Monday – Friday: 10am – 2am​, Saturday – Sunday: 9am – 2am',
-    play: '',
-    stay: '',
+    play1Image: '/images/PointNoPointMainFull.jpg',
+    play1name: 'Norwegian Point',
+    play1Address: '',
+    play1Phone: '',
+    play1Description:
+      'Norwegian Point is one of three Kitsap County Parks around Hansville and Point No Point providing access to the Puget Sound and wonderful views, on the site of an old fishing resort. Below are some other parks around Hansville. ​Point No Point County Park​, Hansville Greenway​,Foulweather Bluff Preserve Trail,​ Buck Lake County Park',
+    play2Image: '/images/PointNoPointMainFull.jpg',
+    play2name: 'Bird Sanctuary',
+    play2Address: 'Point No Point County Park',
+    play2Phone: '',
+    play2Description:
+      'Point No Point Park is an excellent area for bird watching, featuring 60 acres of saltwater shore, wetlands and upland forest, with easy parking and trails. You might see bald eagles, humming birds, Bonaparte’s gulls, buffleheads, alcids, loons, cormorants, murres, and murrelets. ',
+    play3Image: '/images/PointNoPointMainFull.jpg',
+    play3name: 'Driftwood Houses',
+    play3Address: 'Point No Point County Park',
+    play3Phone: '',
+    play3Description:
+      'The beach at Point No Point is home to driftwood structures to explore, and there is plenty of sand. It is a great spot to fly a kite, fish and relax. It also offers views of Seattle and Mount Rainier.',
+
+    stay1Image: '/images/PointNoPointMainFull.jpg',
+    stay1name: 'Point No Point Lighthouse Keepers Quarters',
+    stay1Address: '',
+    stay1Phone: 'For Reservations or Questions, Call: (415) 362-7255',
+    stay1url:
+      'https://uslhs.org/about/point-no-point-vacation-rental/historic-keepers-quarters',
+    stay1Description:
+      'Experience century-old history at this unique property as a keeper of the light. You will not have lighthouse duties. The accommodations include: a comfortable living room, formal dining area, breakfast nook, full kitchen, 2 bedrooms and a full bathroom.',
+    stay2Image: '/images/PointNoPointMainFull.jpg',
+    stay2name: 'Airbnb in Hansville',
+    stay2Address: '',
+    stay2url: 'https://www.airbnb.com/hansville-wa/stays',
+    stay2Phone: '',
+    stay2Description:
+      'Top-rated vacation rentals​ from people in Hansville, WA starting from $20 per night. ',
+    stay3Image: '/images/PointNoPointMainFull.jpg',
+    stay3name: 'The Point Hotel',
+    stay3Address: '7989 NE Salish Lane, ​Kingston, WA 98346',
+    stay3url: 'www.thepointcasinoandhotel.com',
+    stay3Phone: '(360)-688-4441',
+    stay3Description:
+      'This hotel is just south of Hansville, and 5 miles from Kingston ferry, with a casino, gym, meeting space, plus a gallery of indigenous artwork, a courtyard, multiple eateries and bars, and a nightclub/music venue. A ferry shuttle, and parking for RVs and cars are available.',
     footerImage: '/images/PointNoPointMainFull.jpg',
   },
   {
@@ -232,8 +309,47 @@ const locations = [
     drink3Phone: '(360)779-4471',
     drink3Description:
       'Poulsbohemian is a coffee house on Front Street. The patio has a fantastic view looking out at Liberty Bay, and it is a favorite with the locals.',
-    play: '',
-    stay: '',
+    play1Image: '/images/Poulsbo/09PoulsboPlayFishPark.jpg',
+    play1name: 'Fish Park',
+    play1Address: '',
+    play1Phone: '',
+    play1Description:
+      'Fish Park is a 40 acre waterfront park with walking paths, bird watching & ecology-themed public art. There are many trails in and around Poulsbo. Below are some more local parks.​ American Legion Park​, Poulsbo Wilderness Trail Centennial Park Arboretum, ​Waterfront Park, Liberty Bay Waterfront ',
+    play2Image: '/images/Poulsbo/10PoulsboPlayMaritimeMuseum.jpg',
+    play2name: 'Poulsbo Maritime Museum',
+    play2Address: '19010 Front Street NE,​ Poulsbo, WA 98370',
+    play2Phone: '(360) 440-7354',
+    play2Description:
+      'The Poulsbo Maritime Museum showcases the rich maritime history of Poulsbo and North Kitsap. Through imaginative exhibits and interactive displays, the museum invites guests to explore the amazingly diverse history.',
+    play3Image: '/images/Poulsbo/11PoulsboPlayMaritimeMuseum.jpg',
+    play3name: 'U.S. Naval Undersea Museum',
+    play3Address: '1 Garnett Way​, Keyport, WA 98345',
+    play3Phone: '(360) 396-4148',
+    play3Description:
+      'The United States Naval Undersea Museum is a naval museum located in nearby Keyport, Washington. It is one of the 10 Navy museums that are operated by the Naval History & Heritage Command. It sits next to a branch of the Naval Undersea Warfare Center. ',
+
+    stay1Image: '/images/Poulsbo/12PoulsboStayNordicHill.jpg',
+    stay1name: 'Nordic Hill Manor',
+    stay1Address: '13913 South Keyport Road NE​, Poulsbo, WA 98370 US',
+    stay1Phone: '(360) 779-4927',
+    stay1url: '',
+    stay1Description:
+      'This manor sits on top of a hill with sweeping views of Liberty Bay and the Cascades Mountains. It is a vacation rental with 10,000+ square feet, 7 bedrooms and can accommodate sleeping quarters for 15 individuals or up to 25 as couples and kids.',
+    stay2Image: '/images/Poulsbo/13PoulsboStayPoulsboInn.jpg',
+    stay2name: 'Poulsbo Inn & Suites',
+    stay2Address: '18680 State Route 305 NE, Poulsbo, WA 98370-7301',
+    stay2url: '',
+    stay2Phone: '18680 State Route 305 NE, Poulsbo, WA 98370-7301',
+    stay2Description:
+      'Reasonably priced hotel, less than a mile from the waterfront and downtown Poulsbo, eleven miles from the Bainbridge Island Ferry Terminal. ',
+    stay3Image: '/images/Poulsbo/14PoulsboStayClearwaterResort.jpg',
+    stay3name: 'Suquamish Clearwater Casino Resort ',
+    stay3Address: '​15347 Suquamish Way NE, Suquamish, WA 98392',
+    stay3url: '',
+    stay3Phone: '(360) 598-8700',
+    stay3Description:
+      'Clearwater is a waterfront casino resort, with a 183 room hotel, relaxing spa, high tech meeting spaces, five restaurants, four bars, nightlife entertainment, 18 hole golf course and casino.',
+
     footerImage: '/images/Poulsbo/15PoulsboEndSwordsFullSize.jpg',
   },
   {
@@ -306,12 +422,48 @@ const locations = [
     drink3Phone: '(360) 638-6156',
     drink3Description:
       'Specialty coffee shop, family owned and run, with breakfast and food items made from freshly prepared ingredients.',
-    play1: '',
-    play2: '',
-    play3: '',
-    stay1: '',
-    stay2: '',
-    stay3: '',
+    play1Image: '/images/KingstonMainFull.jpg',
+    play1name: 'Firehouse Theater',
+    play1Address: '11225 NE State Hwy 104, Kingston, WA 98346',
+    play1Phone: '(360) 881-0412',
+    play1Description:
+      'This hometown theater shows first run and independent films,, with two screens, stadium seating, and space for special events and performances. It is located in the historic Kingston firehouse, 4 blocks from the ferry. ',
+    play2Image: '/images/KingstonMainFull.jpg',
+    play2name: 'Heronswood Garden',
+    play2Address: '7530 NE 288th Street, ​Kingston, WA 98346',
+    play2Phone: '(360) 297-9620',
+    play2Description:
+      'Heronswood is a botanical garden with a unique collection of plants from the Americas, Asia, Eastern Europe, South Africa, New Australia & Zealand. It is owned and maintained by the  S’Klallam Tribe, and open Wednesday through Sunday, 10am to 3pm.',
+    play3Image: '/images/KingstonMainFull.jpg',
+    play3name: 'Mike Wallace Park',
+    play3Address: '',
+    play3Phone: '',
+    play3Description:
+      'Mike Wallace Park is a nice place to picnic and view activity in Kingston. Sitting by the ferry terminal and running past the marina, it has large grassy field and a gazebo. Some of Kingston’s other parks and trails are listed below. Other Parks:​ Saltair Beach Park, ​Saltair Beach Park, Kingston Eglon Trailhead​, North Kitsap Heritage Park',
+
+    stay1Image: '/images/KingstonMainFull.jpg',
+    stay1name: 'Phoenix Bed & Breakfast',
+    stay1Address: '9120 NE Kiwi Lane​, Kingston, WA 98346 ',
+    stay1Phone: '(360)-297-8175',
+    stay1url: '',
+    stay1Description:
+      'This Bed & Breakfast was rebuilt by the TV show "Extreme Makeover: Home Edition”. It has a private Bed & Breakfast wing. Located in a quiet country setting on 5 beautiful acres and surrounded by tall trees.',
+    stay2Image: '/images/KingstonMainFull.jpg',
+    stay2name: 'Vrbo in Kingston',
+    stay2Address: '',
+    stay2url:
+      'https://www.vrbo.com/vacation-rentals/usa/washington/puget-sound/puget-sound-north/kingston',
+    stay2Phone: '',
+    stay2Description:
+      'Vrbo has many vacation houses and cabins available near Kingston. Prices start at $175 per night, and houses and cabins are popular options.',
+    stay3Image: '/images/KingstonMainFull.jpg',
+    stay3name: 'The Point Hotel',
+    stay3Address: '7989 NE Salish Lane, ​Kingston, WA 98346',
+    stay3url: 'www.thepointcasinoandhotel.com',
+    stay3Phone: '(360)-688-4441',
+    stay3Description:
+      'This hotel is 5 miles from Kingston ferry, with a casino, gym, meeting space, a gallery of indigenous artwork, a courtyard, multiple eateries and bars, and a nightclub/music venue. A ferry shuttle, and parking for RVs and cars are available.',
+
     footerImage: '/images/KingstonMainFull.jpg',
   },
 ];
