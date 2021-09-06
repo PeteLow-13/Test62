@@ -17,6 +17,7 @@ const Stay = () => {
             <Card.Body>
               <Card.Title>{location.stay1name}</Card.Title>
               <Card.Text className='address'>{location.stay1Address}</Card.Text>
+              <Card.Text className='url'>{location.stay1url}</Card.Text>
               <Card.Text className='phone'>{location.stay1Phone}</Card.Text>
               <Card.Text className='description'>
                 {location.stay1Description}
@@ -30,6 +31,7 @@ const Stay = () => {
             <Card.Body>
               <Card.Title>{location.stay2name}</Card.Title>
               <Card.Text className='address'>{location.stay2Address}</Card.Text>
+              <Card.Text className='url'>{location.stay2url}</Card.Text>
               <Card.Text className='phone'>{location.stay2Phone}</Card.Text>
               <Card.Text className='description'>
                 {location.stay2Description}
@@ -43,6 +45,7 @@ const Stay = () => {
             <Card.Body>
               <Card.Title>{location.stay3name}</Card.Title>
               <Card.Text className='address'>{location.stay3Address}</Card.Text>
+              <Card.Text className='url'>{location.stay3url}</Card.Text>
               <Card.Text className='phone'>{location.stay3Phone}</Card.Text>
               <Card.Text className='description'>
                 {location.stay3Description}
