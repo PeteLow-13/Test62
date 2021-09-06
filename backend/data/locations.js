@@ -10,11 +10,39 @@ const locations = [
       'The town’s cemetery is a beautiful spot with amazing views. It dates from1856, when U.S. Navy sailor, Gustave Englebrecht was killed in the Battle of Port Gamble and buried there.  He was the first U.S. Navy combat casualty in the Pacific. The cemetery holds 98 graves for residents of all ages. Most passed away in the 19th and early 20th centuries',
     pointBonus:
       'Port Gamble has been the setting for books, movies and television programs.',
-    go: '',
+    goImage: '/images/PortGamble/02PortGambleGoMuseumSign.jpg',
+    go1h3: 'From Edmonds/Kingston Ferry to Port Gamble',
+    go1all:
+      '-Drive off ferry through Kingston go 5 to 6 miles, to the 5th stop light by the Texaco Station. -At the light turn RIGHT on to Hwy 104 – follow signs to Port Gamble/Hood Canal Bridge. -Go approximately 2 to 3 miles and you will enter Port Gamble. -At the water towers, where the road turns to the left (south), go straight onto Rainier Ave.',
+    go1li1:
+      'Drive off ferry through Kingston go 5 to 6 miles, to the 5th stop light by the Texaco Station.',
+    go1li2:
+      'At the light turn RIGHT on to Hwy 104 – follow signs to Port Gamble/Hood Canal Bridge.',
+    go1li3: 'Go approximately 2 to 3 miles and you will enter Port Gamble.',
+    go1li4:
+      'At the water towers, where the road turns to the left (south), go straight onto Rainier Ave.',
+
+    go2h3: 'From Seattle/Bainbridge Island to Port Gamble',
+    go2all:
+      '-From Bainbridge Island Ferry, follow SR 305. Follow signs to Hwy 3 towards Hood Canal (north). -At Hood Canal Bridge continue going straight 1.5 miles. -At the water towers, where the road turns to the right (south), take a Left onto Rainier Ave.',
+    go2li1:
+      'From Bainbridge Island Ferry, follow SR 305. Follow signs to Hwy 3 towards Hood Canal (north).',
+    go2li2: 'At Hood Canal Bridge continue going straight 1.5 miles.',
+    go2li3:
+      'At the water towers, where the road turns to the right (south), take a Left onto Rainier Ave.',
+    go3h3: 'From Tacoma/South to Port Gamble',
+    go3all:
+      '- Take SR 16W out of Tacoma and across the Narrows Bridge. -Follow signs to HWY 3 North to Poulsbo and continue on Hwy 3. -At Hood Canal Bridge, continue heading straight 1.5 miles.',
+    go3li1: ' Take SR 16W out of Tacoma and across the Narrows Bridge.',
+    go3li2: 'Follow signs to HWY 3 North to Poulsbo and continue on Hwy 3.',
+    go3li3: 'At Hood Canal Bridge, continue heading straight 1.5 miles.',
+    go3li4:
+      'At the water towers, where the road turns to the right (south), take a Left onto Rainier Ave.',
     eat: '',
     drink: '',
     play: '',
     stay: '',
+    footerImage: '/images/PortGamble/15PortGambleEndBicycleFullSize.jpg',
   },
   {
     name: 'Point No Point',
@@ -27,11 +55,43 @@ const locations = [
       'In 1855 the Point No Point Treaty was signed at this location between Governor of Washington Territory and 82 different tribal leaders. It established an agreement of rights between the United States government and the Native American tribes of the greater Puget Sound region in the Washington Territory). The treaty was signed by the Territorial Governor Isaac Stevens, Suquamish and Dwamish (Duwamish tribe) Chief Seattle, Snoqualmoo (Snoqualmie tribe) and Sno-ho-mish Chief Patkanim (as Pat-ka-nam), Lummi Chief Chow-its-hoot, and Skagit Chief Goliah. It established reservation land, fishing rights, $60,000, a free agricultural and industrial school, and free access to a physician, a blacksmith, a carpenter and a farmer.',
     bonusPoint:
       ' Point No Point beach is loaded with driftwood, and makeshift driftwood shacks.',
-    go: '',
+    goImage: '/images/PointNoPointMainFull.jpg',
+    go1h3: 'From Edmonds/Kingston Ferry to Point No Point',
+    go1all:
+      '-Drive off ferry through Kingston and go 2.6 miles on State Hwy 104. -Turn on Hansville Road (north) and go 7.4 miles. -Turn right onto NE Point No Point Rd and continue a mile to the Lighthouse. ',
+    go1li1:
+      'Drive off ferry through Kingston and go 2.6 miles on State Hwy 104.',
+    go1li2: 'Turn on Hansville Road (north) and go 7.4 miles.  ',
+    go1li3:
+      'Turn right onto NE Point No Point Rd and continue a mile to the Lighthouse.',
+    go2h3: 'From Seattle/Bainbridge Island to Point No Point',
+    go2all:
+      '-Drive off Bainbridge Island Ferry, follow SR 305 (north) for 7.0 miles. -Turn right onto Suquamish Way NE and go 1.6 miles. -Suquamish Way NE turns left and becomes Augusta Ave NE  and go 0.8 mile. -Continue on Miller Bay Rd NE  for 5.3 miles, then continue onto Hansville Rd NE  for 7.4 miles. - Turn right onto NE Point No Point Rd and continue a mile to the Lighthouse.',
+    go2li1:
+      'Drive off Bainbridge Island Ferry, follow SR 305 (north) for 7.0 miles.',
+    go2li2: 'Turn right onto Suquamish Way NE and go 1.6 miles.',
+    go2li3:
+      'Suquamish Way NE turns left and becomes Augusta Ave NE  and go 0.8 mile.',
+    go2li4:
+      'Continue on Miller Bay Rd NE  for 5.3 miles, then continue onto Hansville Rd NE  for 7.4 miles.',
+    go2li5:
+      ' Turn right onto NE Point No Point Rd and continue a mile to the Lighthouse.',
+    go3h3: 'From Tacoma/South to Point No Point',
+    go3all:
+      '-Cross Narrows Bridge on SR 16 West, go 26 miles, continue north as it becomes Hwy 3 for 17 miles. -Take Hwy 305 and turn left onto Hwy 307 N/Bond Rd NE and continue for 5.2 miles. -Turn right onto NE Point No Point Rd and continue a mile to the Lighthouse.',
+    go3li1:
+      'Cross Narrows Bridge on SR 16 West, go 26 miles, continue north as it becomes Hwy 3 for 17 miles. -Continue onto Hwy 104 east for 1.5 miles, and then turn left onto Hansville Road NE. for 7.4 miles.',
+    go3li2:
+      'Take Hwy 305 and turn left onto Hwy 307 N/Bond Rd NE and continue for 5.2 miles. ',
+    go3li3:
+      'Continue onto Hwy 104 east for 1.5 miles, and then turn left onto Hansville Road NE. for 7.4 miles.',
+    go3li4:
+      'Turn right onto NE Point No Point Rd and continue a mile to the Lighthouse.',
     eat: '',
     drink: '',
     play: '',
     stay: '',
+    footerImage: '/images/PointNoPointMainFull.jpg',
   },
   {
     name: 'Poulsbo',
@@ -41,25 +101,38 @@ const locations = [
     point2:
       'Poulsbo celebrates Viking Days every year, a popular three-day festival. It features parades, bands, Scandinavian dancing, street food vendors, craft booths, and lots of people dressed in Viking costumes.',
     point3:
-      "Another popular local event is Chief Seattle Days. This area was first settled by the Suquamish Native American people. Their Chief Seattle (1786-1866), for whom the city pf Seattle is named, was a leader of both the Suquamish and Duwamish tribes in the area. Every year a three-day inter-tribal festival honoring him is held on the Suquamish Reservation nearby. It features dances and drumming, plus Northwest traditions like salmon and clam bakes, and canoe races. The festival closes with the blessing of Chief Seattle ' s grave.",
+      "Another popular local event is Chief Seattle Days. This area was first settled by the Suquamish Native American people. Their Chief Seattle (1786-1866), for whom the city pf Seattle is named, was a leader of both the Suquamish and Duwamish tribes in the area. Every year a three-day inter-tribal festival honoring him is held on the Suquamish Reservation nearby. It features dances and drumming, plus Northwest traditions like salmon and clam bakes, and canoe races. The festival closes with the blessing of Chief Seattle's grave.",
     bonusPoint: '',
-    go1: {
-      h3: 'From Edmonds/Kingston Ferry to Poulsbo',
-      li: 'Drive off ferry through Kingston go 5 to 6 miles, to the 5th stop light by the Texaco Station.',
-      li: 'Continue straight on Bond Rd NE about 9 miles to Front St NE in Poulsbo.',
-      li: 'Follow Front St NE into downtown Poulsbo.',
-    },
-    go2: {
-      h3: 'From Seattle/Bainbridge Island to Poulsbo',
-      li: 'Drive off Bainbridge Island Ferry, follow SR 305 (north) for 11.5 miles.',
-      li: 'Turn left onto NE Iverson St toward downtown Poulsbo.',
-      li: 'Turn left onto Jensen Way NE.',
-      li: 'Turn left on Front St NE and continue into downtown Poulsbo. ',
-    },
+    goImage: '/images/Poulsbo/02PoulsboGoMarinaSign.jpg',
+    go1h3: 'From Edmonds/Kingston Ferry to Poulsbo',
+    go1all:
+      '-Drive off ferry through Kingston go 5 to 6 miles, to the 5th stop light by the Texaco Station. -Continue straight on Bond Rd NE about 9 miles to Front St NE in Poulsbo. -Follow Front St NE into downtown Poulsbo.',
+    go1li1:
+      '-Drive off ferry through Kingston go 5 to 6 miles, to the 5th stop light by the Texaco Station.',
+    go1li2:
+      'Continue straight on Bond Rd NE about 9 miles to Front St NE in Poulsbo.',
+    go1li3: 'Follow Front St NE into downtown Poulsbo.',
+
+    go2h3: 'From Seattle/Bainbridge Island to Poulsbo',
+    go2all:
+      'Drive off Bainbridge Island Ferry, follow SR 305 (north) for 11.5 miles. -Turn left onto NE Iverson St toward downtown Poulsbo. -Turn left onto Jensen Way NE. -Turn left on Front St NE and continue into downtown Poulsbo.',
+    go2li1:
+      'Drive off Bainbridge Island Ferry, follow SR 305 (north) for 11.5 miles.',
+    go2li2: 'Turn left onto NE Iverson St toward downtown Poulsbo.',
+    go2li3: 'Turn left onto Jensen Way NE.',
+    go2li4: 'Turn left on Front St NE and continue into downtown Poulsbo. ',
+    go3h3: 'From Tacoma/South to Poulsbo',
+    go3all:
+      '-Take SR 16W out of Tacoma and across the Narrows Bridge. -Continue past Gig Harbor and Port Orchard. -Take the WA-305 exit towards Poulsbo. -Drive time is ~90 minutes.',
+    go3li1: 'Take SR 16W out of Tacoma and across the Narrows Bridge.',
+    go3li2: 'Continue past Gig Harbor and Port Orchard.',
+    go3li3: 'Take the WA-305 exit towards Poulsbo.',
+    go3li4: 'Drive time is ~90 minutes.',
     eat: '',
     drink: '',
     play: '',
     stay: '',
+    footerImage: '/images/Poulsbo/15PoulsboEndSwordsFullSize.jpg',
   },
   {
     name: 'Kingston',
@@ -72,7 +145,29 @@ const locations = [
       'Kingston is home to the My Girl Drive-In and Museum, an authentic replica of a 1950’s drive-in restaurant. It houses 10,000 square feet of collectibles including an extensive collection of Elvis and rock and roll memorabilia. Located on 6 acres in a wooded setting with adequate parking space for large outdoor events and barbecues, and it is available for private or corporate functions, wedding receptions, retirement or birthday parties, high school reunions, family gatherings or fund-raising events.',
     bonusPoint:
       'Kingston is known as the "Little City by the Sea” and the northern gateway to the Olympic Peninsula..',
-    go: '',
+    goImage: '/images/KingstonMainFull.jpg',
+    go1h3: 'From Edmonds/Kingston Ferry to Kingston',
+    go1all:
+      'Walk or drive onto the Edmonds Kingston Ferry in Edmonds. -Walk or drive off ferry in Kingston and you’re there.',
+    go1li1: '-Walk or drive onto the Edmonds Kingston Ferry in Edmonds.',
+    go1li2: 'Walk or drive off ferry in Kingston and you’re there.',
+    go2h3: 'From Seattle on the Passenger Ferry to Kingston',
+    go2all:
+      '-Walk Kingston Passenger Ferry at Seattle Ferry dock. -Walk off the passenger ferry in Kingston and you’re there.',
+    go2li1: 'Walk Kingston Passenger Ferry at Seattle Ferry dock.',
+    go2li2: 'Walk off the passenger ferry in Kingston and you’re there.',
+    go3h3: 'From Seattle/Bainbridge Island to Kingston',
+    go3all:
+      '-Drive off Bainbridge Island Ferry, follow SR 305 (north) for 7.0 miles. -Turn right onto Suquamish Way NE and go 1.6 miles. -Suquamish Way NE turns left and becomes Augusta Ave NE  and go 0.8 mile. -Continue onto Miller Bay Rd NE  for 4.3 miles. -Turn right onto NE West Kingston Rd for 2.1 miles. -Turn left onto Bannister, right on NE Maine, then right onto NE State Hwy 104.',
+    go3li1:
+      'Drive off Bainbridge Island Ferry, follow SR 305 (north) for 7.0 miles.',
+    go3li2: 'Turn right onto Suquamish Way NE and go 1.6 miles.',
+    go3li3:
+      'Suquamish Way NE turns left and becomes Augusta Ave NE  and go 0.8 mile.',
+    go3li4: 'Continue onto Miller Bay Rd NE  for 4.3 miles.',
+    go3li5: 'Turn right onto NE West Kingston Rd for 2.1 miles.',
+    go3li6:
+      'Turn left onto Bannister, right on NE Maine, then right onto NE State Hwy 104.',
     eat1: '',
     eat2: '',
     eat3: '',
@@ -85,34 +180,8 @@ const locations = [
     stay1: '',
     stay2: '',
     stay3: '',
-    endImage: '/images/Poulsbo/15PoulsboEndSwordsFullSize.jpg',
+    footerImage: '/images/KingstonMainFull.jpg',
   },
-  {
-    name: 'Edmonds',
-    image: '/images/EdmondsMainFull.jpg',
-    point1: '',
-    point2: '',
-    point3: '',
-    bonusPoint: '',
-    go: '',
-    eat1: '',
-    eat2: '',
-    eat3: '',
-    drink1: '',
-    drink2: '',
-    drink3: '',
-    play1: '',
-    play2: '',
-    play3: '',
-    stay1: '',
-    stay2: '',
-    stay3: '',
-    endImage: '',
-  },
-  // {
-  //   name: 'Mukilteo',
-  //   image: '',
-  // },
 ];
 
 export default locations;
