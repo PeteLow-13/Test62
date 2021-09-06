@@ -50,6 +50,12 @@ const LocationScreen = ({ match }) => {
           <Drink />
           <Play />
           <Stay />
+          <h1>That's the point of going to {location.name}!</h1>
+          <Row>
+            <Col md={12}>
+              <Image src={location.footerImage} alt={location.name} fluid />
+            </Col>
+          </Row>
         </>
       )}
     </>
