@@ -17,21 +17,21 @@
   background-color: rgba(255, 255, 255, 0.938);
   width: 300px;
   /* adjust width and text location*/
-  width: 50%;
+  /* width: 50%; */
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
 
   top: 0;
-  /* left: -100%; */
-  right: -100%;
+  left: -100%;
+  /* right: -100%; */
   transition: 850ms;
 }
 
 .nav-menu.active {
-  /* left: 0; */
-  right: 0;
+  left: 0;
+  /* right: 0; */
   transition: 350ms;
 }
 
