@@ -8,19 +8,19 @@ import * as GiIcons from 'react-icons/gi';
 
 export const SidebarData = [
   {
-    title: 'home',
+    title: 'Home',
     path: '/',
     icon: <AiIcons.AiFillHome />,
     cName: 'nav-text',
   },
   {
-    title: 'destinations',
+    title: 'Destinations',
     path: '/locationselect',
     icon: <SiIcons.SiOpenstreetmap />,
     cName: 'nav-text',
   },
   {
-    title: 'about us',
+    title: 'About us',
     path: '/about',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text',

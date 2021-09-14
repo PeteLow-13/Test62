@@ -23,13 +23,13 @@ const HomeScreen = ({}) => {
 
   return (
     <>
-      <h1>the point of going</h1>
+      <h1>The point of going</h1>
       <Row>
         <Col md={12}>
           <Image src={Ferry} alt='Photo of ferry and olympic mountains' fluid />
         </Col>
       </Row>
-      <h2>destinations</h2>
+      <h2>Destinations</h2>
       {loading ? (
         <Loader />
       ) : error ? (
