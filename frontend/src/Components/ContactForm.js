@@ -7,7 +7,7 @@ const ContactForm = () => {
     <>
       <Form>
         <Form.Group controlId='name'>
-          <Form.Label>Your Name</Form.Label>
+          <Form.Label className='form-label'>Your Name</Form.Label>
           <Form.Control type='name' placeholder='Your name' />
         </Form.Group>
 
@@ -24,9 +24,9 @@ const ContactForm = () => {
           <Form.Control as='textarea' rows={3} placeholder='Your Message' />
         </Form.Group>
 
-        <Form.Group controlId='emailList'>
+        {/* <Form.Group controlId='emailList'>
           <Form.Check type='checkbox' label='Subscribe to our Email updates' />
-        </Form.Group>
+        </Form.Group> */}
 
         <Button variant='primary' type='submit'>
           Send
