@@ -10,14 +10,18 @@ const Stay = () => {
   return (
     <>
       <Row className='stay' id='stay'>
-        <h2>where to stay {location.name}</h2>
+        <h2>Where to stay {location.name}</h2>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
             <Card.Img src={location.stay1Image} />
             <Card.Body>
               <Card.Title>{location.stay1name}</Card.Title>
               <Card.Text className='address'>{location.stay1Address}</Card.Text>
-              <Card.Text className='url'>{location.stay1url}</Card.Text>
+              <Card.Text className='url'>
+                <a href={`http://${location.stay1url}`} target='blank'>
+                  {location.stay1url}
+                </a>
+              </Card.Text>
               <Card.Text className='phone'>{location.stay1Phone}</Card.Text>
               <Card.Text className='description'>
                 {location.stay1Description}
@@ -31,7 +35,11 @@ const Stay = () => {
             <Card.Body>
               <Card.Title>{location.stay2name}</Card.Title>
               <Card.Text className='address'>{location.stay2Address}</Card.Text>
-              <Card.Text className='url'>{location.stay2url}</Card.Text>
+              <Card.Text className='url'>
+                <a href={`http://${location.stay2url}`} target='blank'>
+                  {location.stay2url}
+                </a>
+              </Card.Text>
               <Card.Text className='phone'>{location.stay2Phone}</Card.Text>
               <Card.Text className='description'>
                 {location.stay2Description}
@@ -45,7 +53,11 @@ const Stay = () => {
             <Card.Body>
               <Card.Title>{location.stay3name}</Card.Title>
               <Card.Text className='address'>{location.stay3Address}</Card.Text>
-              <Card.Text className='url'>{location.stay3url}</Card.Text>
+              <Card.Text className='url'>
+                <a href={`http://${location.stay3url}`} target='blank'>
+                  {location.stay3url}
+                </a>
+              </Card.Text>
               <Card.Text className='phone'>{location.stay3Phone}</Card.Text>
               <Card.Text className='description'>
                 {location.stay3Description}
