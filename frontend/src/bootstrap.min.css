@@ -4229,7 +4229,7 @@ fieldset:disabled .btn {
   color: #fff;
 }
 .card {
-  position: relative;
+  /* position: relative; */
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
