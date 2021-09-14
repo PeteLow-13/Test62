@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgba(0, 0, 0, 0.192);
+  background-color: #fff;
   height: 80px;
   display: flex;
   justify-content: start;
@@ -10,23 +10,28 @@
   margin-left: 2rem;
   font-size: 2rem;
   background-color: none;
-  color: black;
+  /* color: green; */
 }
 
 .nav-menu {
-  background-color: rgba(0, 0, 0, 0.192);
-  width: 250px;
+  background-color: rgba(255, 255, 255, 0.938);
+  width: 300px;
+  /* adjust width and text location*/
+  width: 50%;
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
+
   top: 0;
-  left: -100%;
+  /* left: -100%; */
+  right: -100%;
   transition: 850ms;
 }
 
 .nav-menu.active {
-  left: 0;
+  /* left: 0; */
+  right: 0;
   transition: 350ms;
 }
 
@@ -41,9 +46,7 @@
 
 .nav-text a {
   text-decoration: none;
-  /* color: #f5f5f5; */
   color: black;
-
   font-size: 18px;
   width: 95%;
   height: 100%;
@@ -62,7 +65,8 @@
 }
 
 .navbar-toggle {
-  background-color: #10765219;
+  /* background-color: #10765219; */
+  background-color: #fff;
   width: 100%;
   height: 80px;
   display: flex;
@@ -90,7 +94,7 @@ span {
 .menu-btn_burger {
   width: 50px;
   height: 6px;
-  background: #fff;
+  background: black;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 1010, 47, 0.2);
   transition: all 0.5s ease-in-out;
