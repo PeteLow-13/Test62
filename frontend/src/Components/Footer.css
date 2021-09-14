@@ -18,7 +18,8 @@ footer {
 } */
 
 footer a:hover {
-  color: #fa944b;
+  color: blue;
+  /* color: #fa944b; */
   text-decoration: none;
 }
 
