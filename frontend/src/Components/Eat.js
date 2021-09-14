@@ -10,7 +10,7 @@ const Eat = () => {
   return (
     <>
       <Row className='eat' id='eat'>
-        <h2>where to eat {location.name}</h2>
+        <h2>Where to eat {location.name}</h2>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
             <Card.Img src={location.eat1Image} />

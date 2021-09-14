@@ -10,7 +10,7 @@ const Go = () => {
     <>
       <Row className='go' id='go'>
         <Col md={12}>
-          <h2>how to go {location.name}</h2>
+          <h2>How to go {location.name}</h2>
 
           <Image src={location.goImage} alt={location.name} fluid />
           <h3>{location.go1h3}</h3>

@@ -37,7 +37,7 @@ const LocationSelectScreen = ({ match }) => {
       <Link to='/' className='btn btn-light'>
         Home
       </Link>
-      <h1>destinations</h1>
+      <h1>Destinations</h1>
       {loading ? (
         <Loader />
       ) : error ? (

@@ -10,7 +10,7 @@ const Play = () => {
   return (
     <>
       <Row className='play' id='play'>
-        <h2>where to Play {location.name}</h2>
+        <h2>Where to Play {location.name}</h2>
         <Col sm={12} md={4} lg={4} xl={4}>
           <Card>
             <Card.Img src={location.play1Image} />

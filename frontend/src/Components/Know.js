@@ -11,7 +11,7 @@ const Know = () => {
     <>
       <Row className='know' id='know'>
         <Col>
-          <h2>know the point of going {location.name}</h2>
+          <h2>Know the point of going {location.name}</h2>
           <ol>
             <li>
               <p>{location.point1}</p>
